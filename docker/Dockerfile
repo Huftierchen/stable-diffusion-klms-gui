@@ -31,7 +31,7 @@ torchmetrics==0.6.0 \
 kornia==0.6 \
 pytorch-lightning==1.4.2 \
 invisible-watermark \
-gradio \
+gradio==3.20.0 \
 accelerate \
 transformers \
 pynvml==11.4.1 
@@ -41,7 +41,7 @@ RUN pip install -e git+https://github.com/CompVis/taming-transformers.git@master
 
 RUN pip install -e git+https://github.com/openai/CLIP.git@main#egg=clip
 
-RUN pip install -e git+https://github.com/hlky/k-diffusion-sd#egg=k_diffusion
+RUN pip install -e git+https://github.com/crowsonkb/k-diffusion#egg=k_diffusion 
 
 RUN pip install -e git+https://github.com/TencentARC/GFPGAN#egg=GFPGAN
 
